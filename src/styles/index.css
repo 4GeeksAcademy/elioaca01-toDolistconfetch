@@ -1,12 +1,49 @@
 
-/* 
+#app{
+    background-color: rgb(182, 182, 182);
+    height: 100vh;
+   
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.text{
+    font-size: 150px;
+    font-family: Alumni Sans Pinstripe, sans-serif;
+    font-style: normal;
+    color: rgb(184, 88, 88);
+}
 
-*/
+.input-task{
+    width: 600px;
+    padding: 10px;
+    border: none;
+    position: relative;
+   
+}
+
+.input-task:focus{
+    outline: none;
+}
+
+.footer{
+    width: 600px;
+}
+
+.icono-x{
+    opacity: 0;
+    padding-right: 15px;
+    color: rgb(213, 10, 10);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position:absolute;
+    inset: 0;
+}
+
+.icono-x:hover{
+    opacity: 1;
+}
+
+.sombra{
+    width: 600px;
+    box-shadow: -2px 17px 5px 0px rgba(148,145,148,1);
+}
